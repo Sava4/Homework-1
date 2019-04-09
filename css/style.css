@@ -6,10 +6,7 @@
   }
 
 .navigation-menu {
-  margin-top: 32px;
-  margin-bottom: 35px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 32px auto 35px auto;
   width: 45%;
 }
 
@@ -37,6 +34,7 @@
 
 .mr0 {
   margin-right: 0px;
+  /* TODO but last child? */
 }
 
 .center-section {
@@ -49,13 +47,11 @@
 
 .title {
   margin-bottom: 34px;
-  display: inline-block;
   font-size: 22px;
   }
 
 .text-paragraph {
   margin-bottom: 40px;
-  display: inline-block;
   font-size: 16px;
   line-height: 1.5;
   }
